@@ -33,9 +33,11 @@ p {
 /* About page */
 
 .about {
-  width: 100%;
-  padding: 150px 0;
-  background-color: #f2f2f2;
+  background-color: lightgray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -75,6 +77,13 @@ h1 {
   font-weight: bold;
   margin-bottom: 50px;
 }
+
+.about-txt a {
+  color: blue;
+  font-weight: bold;
+}
+
+
 
 
  /* contact page*/
