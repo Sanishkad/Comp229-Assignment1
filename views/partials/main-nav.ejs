@@ -1,17 +1,14 @@
 <!--Main Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">SK</a>
+        <a class="navbar-brand rotating" href="#">SK</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav justify-content-center">
-
-                <% if (title=="Home" ){ %>
+                <% if (title=="Home" ) { %>
                     <li class="nav-item active">
                         <% } else { %>
                     <li class="nav-item">
@@ -20,8 +17,7 @@
                                 <i class="fa-solid fa-house"></i> Home
                             </a>
                     </li>
-
-                    <% if (title=="About" ){ %>
+                    <% if (title=="About" ) { %>
                         <li class="nav-item active">
                             <% } else { %>
                         <li class="nav-item">
@@ -30,8 +26,7 @@
                                     <i class="fa-solid fa-info"></i> About
                                 </a>
                         </li>
-
-                        <% if (title=="Projects" ){ %>
+                        <% if (title=="Projects" ) { %>
                             <li class="nav-item active">
                                 <% } else { %>
                             <li class="nav-item">
@@ -40,8 +35,7 @@
                                         <i class="fa-solid fa-list-check"></i> Projects
                                     </a>
                             </li>
-
-                            <% if (title=="Services" ){ %>
+                            <% if (title=="Services" ) { %>
                                 <li class="nav-item active">
                                     <% } else { %>
                                 <li class="nav-item">
@@ -50,9 +44,7 @@
                                             <i class="fa-solid fa-gears"></i> Services
                                         </a>
                                 </li>
-
-
-                                <% if (title=="Contact" ){ %>
+                                <% if (title=="Contact" ) { %>
                                     <li class="nav-item active">
                                         <% } else { %>
                                     <li class="nav-item">
@@ -61,9 +53,7 @@
                                                 <i class="fa-solid fa-phone"></i> Contact
                                             </a>
                                     </li>
-
             </ul>
         </div>
-
     </div>
 </nav>
