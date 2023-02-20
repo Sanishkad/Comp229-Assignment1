@@ -97,32 +97,25 @@
 
 
  /* contact page*/
- .contact{
+
+/* Contact form */
+.contact {
   width: 100%;
   padding: 78px 0px;
 }
 
-.contact-main{
-  width: 1130 px;
-  max-width: 95%;
-  margin: 0 auto;
+.contact-main {
   display: flex;
-  align-items: center;
-  justify-content: center; 
+  justify-content: space-between;
+  max-width: 1130px;
+  margin: 0 auto;
 }
 
-.contact-info{
-  text-align: center;
-  width: 500px;
-  letter-spacing: 1px;
-  margin-bottom: 45px;
-}
-
-  .contact-form {
+.contact-form {
   width: 45%;
-  padding: 20px;
   background-color: #f2f2f2;
   border-radius: 5px;
+  padding: 20px;
 }
 
 .contact-form h2 {
@@ -164,7 +157,18 @@
 .contact-info {
   width: 45%;
   padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
   margin-left: 10%;
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
 }
 
 /* Projects page*/
