@@ -28,7 +28,7 @@ module.exports.displayBusinessList =(req,res,next) =>{
 };
 
 module.exports.displayAddPage = (req, res, next) =>{
-    res.render('business/add', {title:"Add Business",
+    res.render('Business/add', {title:"Add Business",
     displayName: req.user ? req.user.displayName: ''});
 
 };
@@ -63,7 +63,7 @@ module.exports.displayEditPage = (req, res, next) => {
             res.end(err);
         } else {
             // show the edit view
-            res.render('business/edit', { title: 'Edit Business', business: businesstoedit,
+            res.render('Business/edit', { title: 'Edit Business', business: businesstoedit,
             displayName: req.user ? req.user.displayName: '' });
         }
     });
