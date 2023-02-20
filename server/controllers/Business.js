@@ -18,7 +18,7 @@ module.exports.displayBusinessList =(req,res,next) =>{
             // sort the businessList alphabetically by name
             businessList.sort((a, b) => (a.name > b.name) ? 1 : -1);
 
-            res.render('business/list',
+            res.render('Business/list',
             {title:"Business",
             businessList: businessList,
             displayName: req.user ? req.user.displayName: ''
